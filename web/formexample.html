@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="formprocess.php" method="GET" enctype="multipart/form-data">
+        <table>
+                <tr>
+                        <td>Upload Image</td>
+                        <td>
+                    <input type="file" name="imageup">
+                        </td>
+                    </tr>
+            <tr>
+                <td>Firstname</td>
+                <td>
+                    <input type="text" name="f_name" placeholder="type your name">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Lastname</td>
+                <td>
+                    <input type="text" name="l_name" placeholder="type your lastname">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="password">
+                </td>
+
+            </tr>
+            <tr>
+                <td>gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male">:Male
+
+                    <input type="radio" name="gender" value="female">:Female
+                </td>
+
+            </tr>
+            <tr>
+                <td>your skills</td>
+                <td>
+                    <input type="checkbox">:HTML<br>
+                    <input type="checkbox">:PHP<br>
+                    <input type="checkbox">:JAVA<br>
+                    <input type="checkbox">:ASP.NET<br>
+                </td>
+
+            </tr>
+            <tr>
+                <td>your counrty</td>
+                <td>
+                    <select name="counrty">
+                           <option>Select counrty</option>
+                           <option value="india">India</option>
+                           <option value="usa" selected>USA</option>
+                           <option value="afganistan">Afganistan</option>
+                           <option value="uk">UK</option>
+                           
+                        </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Comments:</td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                    <td></td>
+                    <td>
+                <input type="submit" value="SUBMIT" name="submit">
+                    </td>
+                </tr>
+        </table>
+    </form>
+</body>
+
+</html>

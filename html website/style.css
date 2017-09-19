@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+
+}
+
+#container{
+    width: 1200px;
+ 
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+
+#header{
+    background: brown;
+    width: 1200px;  
+}
+#header h1{
+    color: white;
+    padding: 30px;
+}
+#nav{
+    background: black;
+    width: 1200px;
+    height: 30px;
+}
+#nav li{
+    color: white;
+    float: left;
+    padding: 5px 0px;
+  
+    list-style-type: none;
+    width: 240px;
+    text-align: center;
+}
+#nav li:hover{
+    background-color:lightcoral;
+    color: darkred;
+}
+#content{
+   
+    width: 1200px;
+	margin: 0 auto;
+}
+#footer{
+	margin: 0 
+}
+
+.left-side{
+  
+    width: 900px;
+    height: 455px;
+    float: left;
+    
+}
+
+.main-post{
+    margin: 20px 10px;
+background-color: silver;
+width: 600px;
+padding: 10px;
+float: left;
+}
+
+.main-post img{
+    width: 590px;
+    height: 300px;
+    background-color: black;
+    float: left;
+}
+
+.main-post-title{
+    font-size: 15px;
+    color: #A52929;
+    text-decoration: double;
+    text-align: center;
+}
+.main-post-dead{
+
+}
+
+.main-post-dead a{
+    color: brown;
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+}
+
+.sub-post{
+
+float: left;
+width: 240px;
+background: silver;
+margin: 20px 20px 0px 0px;
+height: 402px;
+}
+.sub-post img{
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sub-post-title{
+    color: brown;
+    text-align: center;
+    margin: 10px;
+
+}
+.sub-post-dead{
+    padding:10px;
+    
+     
+}
+.sub-post-dead a{
+    color: brown;
+    font-size: 12px;
+    text-decoration: none;
+    float: right;
+    text-align: justify;
+}
+.right-side{
+    background: brown;
+    width: 260px;
+    height: 415px;
+    float: left;
+    padding: 20px;
+}
+
+.right-top{
+
+}
+.right-top h2{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 260px;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: underline;
+}
+.lat-upd{
+    padding: 10px;
+    background: black;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+    border: 2px solid grey;
+}
+
+.lat-upd:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+#footer{
+    height: 50px;
+    background-color: brown;
+    color: aliceblue;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+#footer p{
+    float: left;
+    padding-left: 20px;
+}
+
+#footer p b{
+    color: chartreuse;
+}
+/*---contact us-----*/
+.left-side form{
+    
+}
+.left-side form table{
+    align-content: center;
+margin-left: 220px;
+}
+.left-side form input[type="text"]{
+    width: 250px;
+    height: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.left-side form input[type="text"]:hover{
+    width: 250px;
+    height: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #A52929;
+}
+
+.left-side form input[type="password"]{
+    width: 250px;
+    height: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.left-side form input[type="password"]:hover{
+    width: 250px;
+    height: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #A52929;
+}
+form input[type="radio"]{
+    margin: 5px;
+}
+form input[type="checkbox"]{
+    margin: 5px;
+}
+.left-side form select{
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid black;
+
+}
+.left-side form select:hover{
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: #A52929;
+}
+form textarea{
+    margin: 5px;
+    height: 80px;
+}
+
+form input[type="submit"]{
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    background-color: brown;
+    border: 1px solid black;
+    font-weight: bold;
+    
+}
+form input[type="submit"]:hover{
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+    color: darkred;
+    
+}
+.left-side form h2{
+    text-align: center;
+}
+/*--iframe---*/
+#head_iframe{
+    border:0;
+    width: 1200px;
+    height: 128px;
+}
+
+#right-side-iframe{
+    border:0;
+    width: 300px;
+    height: 460px;
+}

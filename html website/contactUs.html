@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <iframe id="head_iframe" src="include/header.html" frameborder="0"></iframe>
+
+        <div id="content">
+            <div class="left-side">
+                <form action="formprocess.php" method="GET" enctype="multipart/form-data">
+                    <h2>Fill The Form</h2>
+                    <table>
+                        <tr>
+                            <td>Firstname</td>
+                            <td>
+                                <input type="text" name="f_name" placeholder="type your name">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Lastname</td>
+                            <td>
+                                <input type="text" name="l_name" placeholder="type your lastname">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Password</td>
+                            <td>
+                                <input type="password" name="password">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Gender</td>
+                            <td>
+                                <input type="radio" name="gender" value="male">:Male
+
+                                <input type="radio" name="gender" value="female">:Female
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Your Skills</td>
+                            <td>
+                                <input type="checkbox">:HTML<br>
+                                <input type="checkbox">:PHP<br>
+                                <input type="checkbox">:JAVA<br>
+                                <input type="checkbox">:ASP.NET<br>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Your Counrty</td>
+                            <td>
+                                <select name="counrty">
+                                           <option>Select counrty</option>
+                                           <option value="india">India</option>
+                                           <option value="usa" selected>USA</option>
+                                           <option value="afganistan">Afganistan</option>
+                                           <option value="uk">UK</option>
+                                           
+                                        </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>Comments:</td>
+                            <td>
+                                <textarea name="" id="" cols="30" rows="2">
+                
+                                    </textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="SUBMIT" name="submit">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <iframe src="include/right.html" frameborder="0" id="right-side-iframe"></iframe>
+            <div style="clear: both"></div>
+        </div>
+
+        <div id="footer">
+            <p>site created by<b> Brainstroke India<b></p>
+            Copyright@www.abhishekbachare@gmail.com
+        </div>
+        
+    </div>
+</body>
+
+</html>
